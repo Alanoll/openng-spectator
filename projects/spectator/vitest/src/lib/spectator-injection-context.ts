@@ -4,7 +4,7 @@ import {
   SpectatorInjectionContextOverrides,
   SpectatorInjectionContextOptions,
   SpectatorInjectionContext as BaseSpectatorInjectionContext,
-} from '@ngneat/spectator';
+} from '@openng/spectator';
 import { mockProvider, SpyObject } from './mock';
 
 /**

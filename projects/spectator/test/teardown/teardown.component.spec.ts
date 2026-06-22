@@ -1,4 +1,4 @@
-import { createComponentFactory } from '@ngneat/spectator';
+import { createComponentFactory } from '@openng/spectator';
 import { TestBed } from '@angular/core/testing';
 
 import { TeardownComponent } from './teardown.component';

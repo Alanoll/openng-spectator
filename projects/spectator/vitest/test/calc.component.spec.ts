@@ -1,4 +1,4 @@
-import { createComponentFactory, Spectator } from '@ngneat/spectator/vitest';
+import { createComponentFactory, Spectator } from '@openng/spectator/vitest';
 
 import { CalcComponent } from '../../test/calc/calc.component';
 

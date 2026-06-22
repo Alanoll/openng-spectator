@@ -1,4 +1,4 @@
-import { mockProvider } from '@ngneat/spectator';
+import { mockProvider } from '@openng/spectator';
 
 import { WidgetService } from './widget.service';
 

@@ -1,4 +1,4 @@
-import { createDirectiveFactory, SpectatorDirective } from '@ngneat/spectator';
+import { createDirectiveFactory, SpectatorDirective } from '@openng/spectator';
 
 import { AutoFocusDirective } from './auto-focus.directive';
 import { AutoFocusModule } from './auto-focus.module';

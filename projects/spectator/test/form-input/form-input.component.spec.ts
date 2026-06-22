@@ -1,5 +1,5 @@
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { Spectator, SpectatorHost, createComponentFactory, createHostFactory } from '@ngneat/spectator';
+import { Spectator, SpectatorHost, createComponentFactory, createHostFactory } from '@openng/spectator';
 
 import { FormInputComponent } from './form-input.component';
 

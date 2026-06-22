@@ -1,4 +1,4 @@
-import { createHostFactory, SpectatorHost } from '@ngneat/spectator/jest';
+import { createHostFactory, SpectatorHost } from '@openng/spectator/jest';
 
 import { AsyncComponent } from '../../../test/async/async.component';
 import { QueryService } from '../../../test/query.service';

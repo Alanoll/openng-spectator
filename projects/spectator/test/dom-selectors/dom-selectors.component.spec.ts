@@ -10,7 +10,7 @@ import {
   byRole,
   createComponentFactory,
   Spectator,
-} from '@ngneat/spectator';
+} from '@openng/spectator';
 import { configure, getConfig } from '@testing-library/dom';
 
 import { DomSelectorsComponent, DomSelectorsNestedComponent } from './dom-selectors.component';

@@ -1,4 +1,4 @@
-import { createComponentFactory } from '@ngneat/spectator/vitest';
+import { createComponentFactory } from '@openng/spectator/vitest';
 import { TestBed } from '@angular/core/testing';
 import { vi } from 'vitest';
 

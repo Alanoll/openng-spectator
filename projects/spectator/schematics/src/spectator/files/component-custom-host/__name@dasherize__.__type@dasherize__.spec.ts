@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { createHostFactory, SpectatorHost } from '@ngneat/spectator<% if (secondaryEntryPoint) { %>/<%= secondaryEntryPoint%><% } %>';
+import { createHostFactory, SpectatorHost } from '@openng/spectator<% if (secondaryEntryPoint) { %>/<%= secondaryEntryPoint%><% } %>';
 
 import { <%= classify(name)%>Component } from './<%= dasherize(name)%>.component';
 

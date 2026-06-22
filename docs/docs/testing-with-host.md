@@ -7,7 +7,7 @@ Testing a component with a host component is a more elegant and powerful techniq
 It basically gives you the ability to write your tests in the same way that you write your code. Let's see it in action:
 
 ```ts
-import { createHostFactory, SpectatorHost } from '@ngneat/spectator';
+import { createHostFactory, SpectatorHost } from '@openng/spectator';
 
 describe('ZippyComponent', () => {
   let spectator: SpectatorHost<ZippyComponent>;

@@ -1,5 +1,5 @@
 import { Component, Injectable, OnInit } from '@angular/core';
-import { createComponentFactory } from '@ngneat/spectator';
+import { createComponentFactory } from '@openng/spectator';
 
 @Injectable()
 class SomeService {

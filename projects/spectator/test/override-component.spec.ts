@@ -1,4 +1,4 @@
-import { createComponentFactory, createHostFactory, Spectator, SpectatorHost } from '@ngneat/spectator';
+import { createComponentFactory, createHostFactory, Spectator, SpectatorHost } from '@openng/spectator';
 import { Component } from '@angular/core';
 import { QueryService } from './query.service';
 import { overrideComponents } from '../src/lib/spectator/create-factory';

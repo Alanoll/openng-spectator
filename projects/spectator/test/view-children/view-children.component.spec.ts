@@ -1,5 +1,5 @@
 import { ElementRef } from '@angular/core';
-import { createHostFactory, createComponentFactory, Spectator, SpectatorHost } from '@ngneat/spectator';
+import { createHostFactory, createComponentFactory, Spectator, SpectatorHost } from '@openng/spectator';
 
 import { ChildServiceService } from '../child-service.service';
 import { ChildComponent } from '../child/child.component';

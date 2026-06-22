@@ -6,7 +6,7 @@ import {
   Spectator,
   SpectatorDirective,
   SpectatorHost,
-} from '@ngneat/spectator';
+} from '@openng/spectator';
 
 import { AveragePipe } from './pipe/average.pipe';
 

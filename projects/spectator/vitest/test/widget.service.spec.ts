@@ -1,4 +1,4 @@
-import { createServiceFactory, SpectatorService } from '@ngneat/spectator/vitest';
+import { createServiceFactory, SpectatorService } from '@openng/spectator/vitest';
 
 import { WidgetDataService } from '../../test/widget-data.service';
 import { WidgetService } from '../../test/widget.service';

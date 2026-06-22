@@ -1,4 +1,4 @@
-import { createComponentFactory, createHostFactory, Spectator, SpectatorHost } from '@ngneat/spectator/jest';
+import { createComponentFactory, createHostFactory, Spectator, SpectatorHost } from '@openng/spectator/jest';
 import { FunctionOutputComponent } from '../../../test/function-output/function-output.component';
 
 describe('FunctionOutputComponent', () => {

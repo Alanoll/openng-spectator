@@ -1,9 +1,9 @@
-import { Spectator, createComponentFactory } from '@ngneat/spectator';
+import { Spectator, createComponentFactory } from '@openng/spectator';
 
 import { ChildCustomEventParentComponent } from './child-custom-event-parent.component';
 import { ChildCustomEventModule } from './child-custom-event.module';
 import { ChildCustomEventComponent } from './child-custom-event.component';
-import { byText } from '@ngneat/spectator';
+import { byText } from '@openng/spectator';
 
 describe('ChildCustomEventParentComponent', () => {
   let spectator: Spectator<ChildCustomEventParentComponent>;

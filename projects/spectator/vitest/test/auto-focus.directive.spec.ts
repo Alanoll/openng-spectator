@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { createDirectiveFactory, createHostFactory, SpectatorDirective, SpectatorHost } from '@ngneat/spectator/vitest';
+import { createDirectiveFactory, createHostFactory, SpectatorDirective, SpectatorHost } from '@openng/spectator/vitest';
 
 import { AutoFocusDirective } from '../../test/auto-focus/auto-focus.directive';
 

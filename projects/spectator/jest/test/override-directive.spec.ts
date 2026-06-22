@@ -1,4 +1,4 @@
-import { createDirectiveFactory, SpectatorDirective } from '@ngneat/spectator';
+import { createDirectiveFactory, SpectatorDirective } from '@openng/spectator';
 import { Directive, Inject, InjectionToken } from '@angular/core';
 import { overrideDirectives } from '../../src/lib/spectator/create-factory';
 

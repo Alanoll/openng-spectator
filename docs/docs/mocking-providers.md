@@ -16,7 +16,7 @@ dateService.isExpired.and.callFake(() => fake);
 dateService.isExpired.and.throwError('Error');
 dateService.isExpired.andCallFake(() => fake);
 ```
-However, if you use Jest as test framework and you want to utilize its mocking mechanism instead, import the `mockProvider()` from `@ngneat/spectator/jest`.
+However, if you use Jest as test framework and you want to utilize its mocking mechanism instead, import the `mockProvider()` from `@openng/spectator/jest`.
 This will automatically use the `jest.fn()` function to create a Jest compatible mock instead.
 
 `mockProvider()` doesn't include properties. In case you need to have properties on your mock you can use 2nd argument:

@@ -1,4 +1,4 @@
-import { createHostFactory, SpectatorHost } from '@ngneat/spectator';
+import { createHostFactory, SpectatorHost } from '@openng/spectator';
 
 import { HelloComponent } from './hello.component';
 import { TranslateService } from '../translate.service';

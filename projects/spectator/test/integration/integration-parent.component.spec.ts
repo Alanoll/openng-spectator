@@ -1,4 +1,4 @@
-import { Spectator, createComponentFactory } from '@ngneat/spectator';
+import { Spectator, createComponentFactory } from '@openng/spectator';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { IntegrationParentComponent } from './integration-parent.component';

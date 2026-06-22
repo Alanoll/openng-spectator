@@ -21,7 +21,7 @@ spectator.click(byText('Element'));
 spectator.blur(SpectatorElement);
 spectator.blur(byText('Element'));
 ```
-Note that if using the jest framework, blur() only works if the element is focused. [Details](https://github.com/ngneat/spectator/issues/373#issuecomment-896285805).
+Note that if using the jest framework, blur() only works if the element is focused. [Details](https://github.com/openng/spectator/issues/373#issuecomment-896285805).
 - `focus()` - Triggers a focus event:
 ```ts
 spectator.focus(SpectatorElement);
@@ -47,7 +47,7 @@ spectator.dispatchTouchEvent(SpectatorElement, type, x, y);
 
 ## Custom Events
 
-You can trigger custom events (`@Output()` of child components) [using](https://github.com/ngneat/spectator/blob/master/projects/spectator/test/child-custom-event/child-custom-event-parent.component.spec.ts) the following method:
+You can trigger custom events (`@Output()` of child components) [using](https://github.com/openng/spectator/blob/master/projects/spectator/test/child-custom-event/child-custom-event-parent.component.spec.ts) the following method:
 ```ts
 spectator.triggerEventHandler(MyChildComponent, 'myCustomEvent', 'eventValue');
 spectator.triggerEventHandler(MyChildComponent, 'myCustomEvent', 'eventValue', { root: true});

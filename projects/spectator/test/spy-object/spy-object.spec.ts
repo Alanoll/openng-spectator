@@ -1,4 +1,4 @@
-import { createSpyObject } from '@ngneat/spectator';
+import { createSpyObject } from '@openng/spectator';
 
 import { Person } from './person';
 

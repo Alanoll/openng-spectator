@@ -1,4 +1,4 @@
-import { byLabel, createComponentFactory, Spectator } from '@ngneat/spectator';
+import { byLabel, createComponentFactory, Spectator } from '@openng/spectator';
 import { CalcComponent } from './calc.component';
 
 describe('CalcComponent', () => {

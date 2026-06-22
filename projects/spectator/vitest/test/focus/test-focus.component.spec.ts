@@ -1,4 +1,4 @@
-import { SpectatorHost, createHostFactory } from '@ngneat/spectator/vitest';
+import { SpectatorHost, createHostFactory } from '@openng/spectator/vitest';
 
 import { TestFocusComponent } from '../../../test/focus/test-focus.component';
 

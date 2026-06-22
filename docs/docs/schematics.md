@@ -24,14 +24,14 @@ To use `spectator` as the default collection in your Angular CLI project,
 add it to your `angular.json`:
 
 ```sh
-ng config cli.defaultCollection @ngneat/spectator
+ng config cli.defaultCollection @openng/spectator
 ```
 
-The `spectator` schematics extend the default `@schematics/angular` collection. If you want to set defaults for schematics such as generating components with scss file, you must change the schematics package name from `@schematics/angular` to `@ngneat/spectator` in `angular.json`:
+The `spectator` schematics extend the default `@schematics/angular` collection. If you want to set defaults for schematics such as generating components with scss file, you must change the schematics package name from `@schematics/angular` to `@openng/spectator` in `angular.json`:
 
 ```json
 "schematics": {
-  "@ngneat/spectator:spectator-component": {
+  "@openng/spectator:spectator-component": {
     "style": "scss"
   }
 }

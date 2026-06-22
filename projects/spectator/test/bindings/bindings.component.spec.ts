@@ -1,4 +1,4 @@
-import { createComponentFactory, Spectator, createRoutingFactory, SpectatorRouting } from '@ngneat/spectator';
+import { createComponentFactory, Spectator, createRoutingFactory, SpectatorRouting } from '@openng/spectator';
 
 import { TestCompHost, TestCompInput, TestCompOutput, TestCompTwoWayBinding } from './bindings.component';
 import { inputBinding, outputBinding, signal, twoWayBinding, WritableSignal } from '@angular/core';

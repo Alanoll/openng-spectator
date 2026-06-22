@@ -1,5 +1,5 @@
 import { fakeAsync } from '@angular/core/testing';
-import { createHostFactory, SpectatorHost } from '@ngneat/spectator';
+import { createHostFactory, SpectatorHost } from '@openng/spectator';
 
 import { AsyncInputComponent } from './async-input.component';
 

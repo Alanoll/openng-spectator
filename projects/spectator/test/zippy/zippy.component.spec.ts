@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { fakeAsync } from '@angular/core/testing';
-import { SpectatorHost, byText, createHostFactory } from '@ngneat/spectator';
+import { SpectatorHost, byText, createHostFactory } from '@openng/spectator';
 
 import { CalcComponent } from '../calc/calc.component';
 import { QueryService } from '../query.service';

@@ -1,4 +1,4 @@
-import { createPipeFactory, SpectatorPipe } from '@ngneat/spectator';
+import { createPipeFactory, SpectatorPipe } from '@openng/spectator';
 import { StandalonePipe } from './standalone.pipe';
 
 describe('StandalonePipe', () => {

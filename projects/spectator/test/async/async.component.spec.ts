@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { createComponentFactory, Spectator } from '@ngneat/spectator';
+import { createComponentFactory, Spectator } from '@openng/spectator';
 
 @Component({
   selector: 'app-foo',

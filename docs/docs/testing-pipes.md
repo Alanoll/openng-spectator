@@ -6,7 +6,7 @@ title: Testing Pipes
 The following example shows how to test a pipe with Spectator:
 
 ```ts
-import { SpectatorPipe, createPipeFactory } from '@ngneat/spectator';
+import { SpectatorPipe, createPipeFactory } from '@openng/spectator';
 
 import { StatsService } from './stats.service';
 import { SumPipe } from './sum.pipe';
@@ -55,7 +55,7 @@ The `createPipe()` function returns `SpectatorPipe` with the following propertie
 It is possible to set a default template when creating the factory. Here is an example:
 
 ```ts
-import { SpectatorPipe, createPipeFactory } from '@ngneat/spectator';
+import { SpectatorPipe, createPipeFactory } from '@openng/spectator';
 
 import { AlternatingSumPipe } from './alternating-sum.pipe';
 
@@ -83,7 +83,7 @@ The following example illustrates how to test a pipe using a custom host compone
 
 ```ts
 import { Component, Input } from '@angular/core';
-import { SpectatorPipe, createPipeFactory } from '@ngneat/spectator';
+import { SpectatorPipe, createPipeFactory } from '@openng/spectator';
 
 import { AveragePipe } from './average.pipe';
 import { StatsService } from './stats.service';

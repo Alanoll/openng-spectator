@@ -1,5 +1,5 @@
 import { Router, RouterLink } from '@angular/router';
-import { createRoutingFactory } from '@ngneat/spectator/vitest';
+import { createRoutingFactory } from '@openng/spectator/vitest';
 
 import { MyPageComponent } from '../../../test/with-routing/my-page.component';
 

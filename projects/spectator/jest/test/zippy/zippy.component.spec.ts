@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { fakeAsync } from '@angular/core/testing';
 import { FormControl } from '@angular/forms';
-import { SpectatorHost, createHostFactory } from '@ngneat/spectator/jest';
+import { SpectatorHost, createHostFactory } from '@openng/spectator/jest';
 
 import { QueryService } from '../../../test/query.service';
 import { ZippyComponent } from '../../../test/zippy/zippy.component';

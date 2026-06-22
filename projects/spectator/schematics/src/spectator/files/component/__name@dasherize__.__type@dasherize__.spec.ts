@@ -1,4 +1,4 @@
-import { Spectator, createComponentFactory } from '@ngneat/spectator<% if (secondaryEntryPoint) { %>/<%= secondaryEntryPoint%><% } %>';
+import { Spectator, createComponentFactory } from '@openng/spectator<% if (secondaryEntryPoint) { %>/<%= secondaryEntryPoint%><% } %>';
 
 import { <%= classify(name)%>Component } from './<%= dasherize(name)%>.component';
 

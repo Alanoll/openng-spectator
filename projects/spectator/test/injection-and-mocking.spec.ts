@@ -6,7 +6,7 @@ import {
   createComponentFactory,
   createHostFactory,
   createServiceFactory,
-} from '@ngneat/spectator';
+} from '@openng/spectator';
 
 import { ConsumerService } from './consumer.service';
 import { AbstractQueryService, QueryService } from './query.service';

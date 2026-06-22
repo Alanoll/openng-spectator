@@ -23,8 +23,8 @@ Spectator helps you get rid of all the boilerplate grunt work, leaving you with 
 
 ### NPM
 
-`npm install @ngneat/spectator --save-dev`
+`npm install @openng/spectator --save-dev`
 
 ### Yarn
 
-`yarn add @ngneat/spectator --dev`
+`yarn add @openng/spectator --dev`

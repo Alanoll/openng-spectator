@@ -6,7 +6,7 @@ title: Testing Services
 The following example shows how to test a service with Spectator:
 
 ```ts
-import { createServiceFactory, SpectatorService } from '@ngneat/spectator';
+import { createServiceFactory, SpectatorService } from '@openng/spectator';
 
 import { AuthService } from 'auth.service.ts';
 
@@ -47,7 +47,7 @@ export class AuthService {
 ```
 In this case we can mock the `DateService` dependency.
 ```ts
-import { createServiceFactory } from '@ngneat/spectator';
+import { createServiceFactory } from '@openng/spectator';
 
 import { AuthService } from 'auth.service.ts';
 

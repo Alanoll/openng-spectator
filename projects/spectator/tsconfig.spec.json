@@ -8,16 +8,16 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@ngneat/spectator": [
+      "@openng/spectator": [
         "src/public_api.ts"
       ],
-      "@ngneat/spectator/jest": [
+      "@openng/spectator/jest": [
         "jest/src/public_api.ts"
       ],
-      "@ngneat/spectator/vitest": [
+      "@openng/spectator/vitest": [
         "vitest/src/public_api.ts"
       ],
-      "@ngneat/spectator/internals": [
+      "@openng/spectator/internals": [
         "internals/src/public_api.ts"
       ]
     }

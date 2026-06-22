@@ -1,17 +1,17 @@
 {
-  "name": "@ngneat/spectator",
+  "name": "@openng/spectator",
   "description": "A powerful tool to simplify your Angular tests",
   "author": "Netanel Basal <netanel7799s@gmail.com>",
   "version": "22.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngneat/spectator"
+    "url": "https://github.com/openng/spectator"
   },
   "bugs": {
-    "url": "https://github.com/ngneat/spectator/issues"
+    "url": "https://github.com/openng/spectator/issues"
   },
-  "homepage": "https://github.com/ngneat/spectator#readme",
+  "homepage": "https://github.com/openng/spectator#readme",
   "keywords": [
     "angular unit test",
     "angular simplified tests",

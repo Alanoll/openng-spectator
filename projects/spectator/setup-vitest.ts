@@ -2,7 +2,7 @@ import '@analogjs/vitest-angular/setup-zone';
 
 import { BrowserDynamicTestingModule, platformBrowserDynamicTesting } from '@angular/platform-browser-dynamic/testing';
 import { getTestBed } from '@angular/core/testing';
-import { defineGlobalsInjections } from '@ngneat/spectator';
+import { defineGlobalsInjections } from '@openng/spectator';
 import { TranslateService } from './test/translate.service';
 import { TranslatePipe } from './test/translate.pipe';
 import { vi } from 'vitest';

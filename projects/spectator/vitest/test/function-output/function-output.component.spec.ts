@@ -1,4 +1,4 @@
-import { createComponentFactory, createHostFactory, Spectator, SpectatorHost } from '@ngneat/spectator/vitest';
+import { createComponentFactory, createHostFactory, Spectator, SpectatorHost } from '@openng/spectator/vitest';
 import { FunctionOutputComponent } from '../../../test/function-output/function-output.component';
 
 describe('FunctionOutputComponent', () => {
