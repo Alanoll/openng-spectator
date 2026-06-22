@@ -5,11 +5,11 @@ title: Jest Support
 
 By default, Spectator uses Jasmine for creating spies. If you are using Jest as test framework instead, you can let Spectator create Jest-compatible spies.
 
-Just import one of the following functions from `@ngneat/spectator/jest`(instead of @ngneat/spectator), and it will use Jest instead of Jasmine.
+Just import one of the following functions from `@openng/spectator/jest`(instead of @openng/spectator), and it will use Jest instead of Jasmine.
 `createComponentFactory()`, `createHostFactory()`, `createServiceFactory()`, `createHttpFactory()`, `mockProvider()`.
 
 ```ts
-import { createServiceFactory, SpectatorService } from '@ngneat/spectator/jest';
+import { createServiceFactory, SpectatorService } from '@openng/spectator/jest';
 import { AuthService } from './auth.service';
 import { DateService } from './date.service';
 
@@ -39,7 +39,7 @@ describe('AuthService', () => {
 When using the component schematic you can specify the `--jest` flag to have the Jest imports used.  In order to Jest imports the default, update `angular.json`:
 ```json
 "schematics": {
-  "@ngneat/spectator:spectator-component": {
+  "@openng/spectator:spectator-component": {
     "jest": true
   }
 }

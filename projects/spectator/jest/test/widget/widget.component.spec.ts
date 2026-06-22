@@ -1,4 +1,4 @@
-import { createHostFactory, SpectatorHost } from '@ngneat/spectator/jest';
+import { createHostFactory, SpectatorHost } from '@openng/spectator/jest';
 
 import { WidgetComponent } from '../../../test/widget/widget.component';
 import { WidgetService } from '../../../test/widget.service';

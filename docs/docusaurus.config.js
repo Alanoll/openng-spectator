@@ -1,10 +1,10 @@
 module.exports = {
   title: 'Spectator',
   tagline: 'A Powerful Tool to <strong>Simplify</strong> Your <strong>Angular Tests</strong> 🦊 🚀',
-  url: 'https://github.com/ngneat',
+  url: 'https://github.com/openng',
   baseUrl: '/spectator/',
   favicon: 'img/favicon.ico',
-  organizationName: 'ngneat',
+  organizationName: 'openng',
   projectName: 'spectator',
   themeConfig: {
     navbar: {
@@ -26,7 +26,7 @@ module.exports = {
           position: 'right'
         },
         {
-          href: 'https://github.com/ngneat/spectator/',
+          href: 'https://github.com/openng/spectator/',
           label: 'GitHub',
           position: 'right'
         }
@@ -58,7 +58,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/ngneat/spectator/'
+              href: 'https://github.com/openng/spectator/'
             },
             {
               label: 'Twitter',
@@ -80,7 +80,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/ngneat/spectator/edit/master/docs'
+          editUrl: 'https://github.com/openng/spectator/edit/master/docs'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')

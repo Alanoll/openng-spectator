@@ -6,8 +6,8 @@ title: Global Injections
 It's possible to define injections which will be available for each test without the need to re-declare them in each test:
 ```ts
 // test.ts
-import { defineGlobalsInjections } from '@ngneat/spectator';
-import { TranslocoModule } from '@ngneat/transloco';
+import { defineGlobalsInjections } from '@openng/spectator';
+import { TranslocoModule } from '@jsverse/transloco';
 
 defineGlobalsInjections({
   imports: [TranslocoModule],

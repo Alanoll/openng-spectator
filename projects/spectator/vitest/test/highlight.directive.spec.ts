@@ -1,5 +1,5 @@
-import { createDirectiveFactory, SpectatorDirective, SpectatorHost } from '@ngneat/spectator';
-import { createHostFactory } from '@ngneat/spectator/vitest';
+import { createDirectiveFactory, SpectatorDirective, SpectatorHost } from '@openng/spectator';
+import { createHostFactory } from '@openng/spectator/vitest';
 
 import { HighlightDirective } from '../../test/highlight.directive';
 

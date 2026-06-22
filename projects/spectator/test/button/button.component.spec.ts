@@ -1,4 +1,4 @@
-import { createComponentFactory, mockProvider, Spectator } from '@ngneat/spectator';
+import { createComponentFactory, mockProvider, Spectator } from '@openng/spectator';
 import { of } from 'rxjs';
 
 import { QueryService } from '../query.service';

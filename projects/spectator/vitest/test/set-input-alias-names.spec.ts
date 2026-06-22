@@ -1,5 +1,5 @@
 import { Component, Input, input } from '@angular/core';
-import { createComponentFactory } from '@ngneat/spectator/vitest';
+import { createComponentFactory } from '@openng/spectator/vitest';
 
 describe('SetInputAliasNames', () => {
   describe('input decorators', () => {

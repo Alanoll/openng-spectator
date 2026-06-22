@@ -1,5 +1,5 @@
 import { FormBuilder } from '@angular/forms';
-import { createDirectiveFactory, SpectatorDirective } from '@ngneat/spectator';
+import { createDirectiveFactory, SpectatorDirective } from '@openng/spectator';
 
 import { DirectiveProviderDirective, directiveProviderToken } from './directive-providers.directive';
 

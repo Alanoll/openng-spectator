@@ -1,5 +1,5 @@
-import { toBeVisible, toBePartial } from '@ngneat/spectator';
-import { createComponentFactory, Spectator } from '@ngneat/spectator/vitest';
+import { toBeVisible, toBePartial } from '@openng/spectator';
+import { createComponentFactory, Spectator } from '@openng/spectator/vitest';
 import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 interface Dummy {

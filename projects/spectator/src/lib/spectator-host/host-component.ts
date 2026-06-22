@@ -1,7 +1,7 @@
 import { Component, NgModule } from '@angular/core';
 
 @Component({
-  selector: 'lib-ngneat-host-component',
+  selector: 'lib-openng-host-component',
   template: '',
   // eslint-disable-next-line @angular-eslint/prefer-standalone
   standalone: false,

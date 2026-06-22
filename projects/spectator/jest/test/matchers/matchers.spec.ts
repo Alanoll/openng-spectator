@@ -1,6 +1,6 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { byRole } from '@ngneat/spectator';
-import { createComponentFactory, Spectator } from '@ngneat/spectator/jest';
+import { byRole } from '@openng/spectator';
+import { createComponentFactory, Spectator } from '@openng/spectator/jest';
 
 interface Dummy {
   lorem: string;

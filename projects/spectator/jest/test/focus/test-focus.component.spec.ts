@@ -1,4 +1,4 @@
-import { SpectatorHost, createHostFactory } from '@ngneat/spectator/jest';
+import { SpectatorHost, createHostFactory } from '@openng/spectator/jest';
 
 import { TestFocusComponent } from '../../../test/focus/test-focus.component';
 

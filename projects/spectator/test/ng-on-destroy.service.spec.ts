@@ -1,4 +1,4 @@
-import { createServiceFactory, mockProvider } from '@ngneat/spectator';
+import { createServiceFactory, mockProvider } from '@openng/spectator';
 import { Subject } from 'rxjs';
 
 import { NgOnDestroyService, SubjectService } from './ng-on-destroy.service';

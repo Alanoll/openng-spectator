@@ -1,4 +1,4 @@
-import { SpectatorPipe, createPipeFactory } from '@ngneat/spectator';
+import { SpectatorPipe, createPipeFactory } from '@openng/spectator';
 
 import { StatsService } from './stats.service';
 import { SumPipe } from './sum.pipe';

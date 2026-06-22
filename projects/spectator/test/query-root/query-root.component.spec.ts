@@ -1,4 +1,4 @@
-import { createComponentFactory, Spectator } from '@ngneat/spectator';
+import { createComponentFactory, Spectator } from '@openng/spectator';
 
 import { QueryRootComponent, QueryRootOverlayComponent } from './query-root.component';
 

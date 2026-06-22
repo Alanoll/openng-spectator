@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { createPipeFactory, SpectatorPipe } from '@ngneat/spectator';
+import { createPipeFactory, SpectatorPipe } from '@openng/spectator';
 import { overridePipes } from '../../src/lib/spectator/create-factory';
 
 // Created only for testing purpose

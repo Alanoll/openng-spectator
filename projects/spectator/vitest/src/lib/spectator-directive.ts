@@ -7,7 +7,7 @@ import {
   SpectatorDirectiveOptions,
   SpectatorDirectiveOverrides,
   Token,
-} from '@ngneat/spectator';
+} from '@openng/spectator';
 
 import { mockProvider, SpyObject } from './mock';
 

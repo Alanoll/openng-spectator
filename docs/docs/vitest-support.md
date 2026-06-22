@@ -14,10 +14,10 @@ export default defineConfig(({ mode }) => ({
   /* ... */
   test: {
     /* ... */
-    // inline @ngneat/spectator
+    // inline @openng/spectator
     server: {
       deps: {
-        inline: ['@ngneat/spectator']
+        inline: ['@openng/spectator']
       }
     }
   },
@@ -26,10 +26,10 @@ export default defineConfig(({ mode }) => ({
 
 ## Usage
 
-Import the functions from `@ngneat/spectator/vitest` instead of  `@ngneat/spectator` to use Vitest instead of Jasmine.
+Import the functions from `@openng/spectator/vitest` instead of  `@openng/spectator` to use Vitest instead of Jasmine.
 
 ```ts
-import { createServiceFactory, SpectatorService } from '@ngneat/spectator/vitest';
+import { createServiceFactory, SpectatorService } from '@openng/spectator/vitest';
 import { AuthService } from './auth.service';
 import { DateService } from './date.service';
 

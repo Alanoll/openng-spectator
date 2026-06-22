@@ -1,5 +1,5 @@
 import { fakeAsync } from '@angular/core/testing';
-import { byText, createComponentFactory, Spectator } from '@ngneat/spectator/jest';
+import { byText, createComponentFactory, Spectator } from '@openng/spectator/jest';
 import { ClickComponent } from '../../../test/click/click.component';
 
 describe('ClickComponent', () => {

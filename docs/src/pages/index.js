@@ -70,7 +70,7 @@ function IntroHeading({...siteConfig}) {
           >
             Get Started
           </Link>
-          <iframe src="https://ghbtns.com/github-btn.html?user=ngneat&repo=spectator&type=star&count=true&size=large"></iframe>
+          <iframe src="https://ghbtns.com/github-btn.html?user=openng&repo=spectator&type=star&count=true&size=large"></iframe>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import { createComponentFactory, Spectator } from '@ngneat/spectator';
+import { createComponentFactory, Spectator } from '@openng/spectator';
 import { NgOnChangesInputComponent } from './ngonchanges-input.component';
 
 describe('NgOnChangesInputComponent', () => {

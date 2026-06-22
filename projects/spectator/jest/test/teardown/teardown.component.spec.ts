@@ -1,4 +1,4 @@
-import { createComponentFactory } from '@ngneat/spectator/jest';
+import { createComponentFactory } from '@openng/spectator/jest';
 import { TestBed } from '@angular/core/testing';
 
 import { TeardownComponent } from './teardown.component';

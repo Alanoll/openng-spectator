@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { SpectatorPipe, createPipeFactory } from '@ngneat/spectator';
+import { SpectatorPipe, createPipeFactory } from '@openng/spectator';
 
 import { AveragePipe } from './average.pipe';
 import { StatsService } from './stats.service';

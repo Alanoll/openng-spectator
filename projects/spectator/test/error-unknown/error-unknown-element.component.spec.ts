@@ -1,4 +1,4 @@
-import { createComponentFactory, Spectator } from '@ngneat/spectator';
+import { createComponentFactory, Spectator } from '@openng/spectator';
 import { CommonModule } from '@angular/common';
 
 import { ErrorUnknownElementComponent } from './error-unknown-element.component';

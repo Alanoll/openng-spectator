@@ -1,4 +1,4 @@
-import { createHostFactory, SpectatorHost } from '@ngneat/spectator/vitest';
+import { createHostFactory, SpectatorHost } from '@openng/spectator/vitest';
 
 import { AsyncComponent } from '../../../test/async/async.component';
 import { QueryService } from '../../../test/query.service';

@@ -2,7 +2,7 @@
 import { Component } from '@angular/core';
 import { DropzoneComponent } from './dropzone.component';
 import { DownloadComponent } from '../download/download.component';
-import { createHostFactory, SpectatorHost } from '@ngneat/spectator';
+import { createHostFactory, SpectatorHost } from '@openng/spectator';
 
 @Component({
   selector: 'host',

@@ -1,4 +1,4 @@
-import { createDirectiveFactory, SpectatorDirective } from '@ngneat/spectator/vitest';
+import { createDirectiveFactory, SpectatorDirective } from '@openng/spectator/vitest';
 import { StandaloneDirective } from '../../../../test/standalone/directive/standalone.directive';
 
 describe('StandaloneDirective', () => {

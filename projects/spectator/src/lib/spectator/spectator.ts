@@ -46,7 +46,7 @@ export class Spectator<C> extends DomSpectator<C> {
   public setInput(input: string, inputValue: unknown): void;
   public setInput(input: any, value?: any): void {
     setProps(this.fixture.componentRef, input, value);
-    // Force cd on the host component for cases such as: https://github.com/ngneat/spectator/issues/539
+    // Force cd on the host component for cases such as: https://github.com/openng/spectator/issues/539
     this.detectChanges();
 
     // Force cd on the tested component

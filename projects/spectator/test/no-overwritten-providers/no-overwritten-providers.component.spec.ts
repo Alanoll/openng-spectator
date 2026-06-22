@@ -1,4 +1,4 @@
-import { createHostFactory, mockProvider } from '@ngneat/spectator';
+import { createHostFactory, mockProvider } from '@openng/spectator';
 
 import { ComponentWithoutOverwrittenProvidersComponent } from './no-overwritten-providers.component';
 import { DummyService } from './dummy.service';

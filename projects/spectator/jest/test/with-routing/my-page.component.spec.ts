@@ -1,5 +1,5 @@
 import { Router, RouterLink } from '@angular/router';
-import { createRoutingFactory } from '@ngneat/spectator/jest';
+import { createRoutingFactory } from '@openng/spectator/jest';
 
 import { MyPageComponent } from '../../../test/with-routing/my-page.component';
 

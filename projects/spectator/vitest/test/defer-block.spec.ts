@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { DeferBlockBehavior, fakeAsync } from '@angular/core/testing';
-import { createComponentFactory } from '@ngneat/spectator/vitest';
+import { createComponentFactory } from '@openng/spectator/vitest';
 
 describe('DeferBlock', () => {
   describe('Playthrough Behavior', () => {

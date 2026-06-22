@@ -1,5 +1,5 @@
 import { ReactiveFormsModule } from '@angular/forms';
-import { Spectator, createComponentFactory } from '@ngneat/spectator/vitest';
+import { Spectator, createComponentFactory } from '@openng/spectator/vitest';
 
 import { FormSelectComponent } from './form-select.component';
 

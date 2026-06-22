@@ -1,5 +1,5 @@
 import { inject, Injectable, InjectionToken, NgModule } from '@angular/core';
-import { createInjectionContextFactory, SpectatorInjectionContext } from '@ngneat/spectator';
+import { createInjectionContextFactory, SpectatorInjectionContext } from '@openng/spectator';
 
 const TEST_TOKEN = new InjectionToken<string>('simple-token');
 

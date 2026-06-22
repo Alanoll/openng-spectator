@@ -5,7 +5,7 @@ import {
   Spectator,
   SpectatorHost,
   SpectatorRouting,
-} from '@ngneat/spectator/vitest';
+} from '@openng/spectator/vitest';
 import { StandaloneComponent } from '../../../../test/standalone/component/standalone.component';
 import {
   MockStandaloneChildComponent,

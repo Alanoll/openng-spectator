@@ -2,7 +2,7 @@
 
 // This should be imported before `jquery` since this library unpatches the `setTimeout`,
 // so jQuery won't setup a timer, that might be captured by zone.js.
-import { restoreSetTimeout } from '@ngneat/spectator/internals';
+import { restoreSetTimeout } from '@openng/spectator/internals';
 import $ from 'jquery';
 
 restoreSetTimeout();

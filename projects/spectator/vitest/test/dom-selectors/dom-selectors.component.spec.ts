@@ -9,7 +9,7 @@ import {
   byValue,
   byTextContent,
   byTestId,
-} from '@ngneat/spectator/vitest';
+} from '@openng/spectator/vitest';
 import { configure, getConfig } from '@testing-library/dom';
 
 import { DomSelectorsComponent, DomSelectorsNestedComponent } from '../../../test/dom-selectors/dom-selectors.component';

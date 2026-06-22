@@ -1,6 +1,6 @@
 import { Component, Directive, HostBinding, NgModule } from '@angular/core';
-import { Spectator, SpectatorDirective, SpectatorHost } from '@ngneat/spectator';
-import { createComponentFactory, createDirectiveFactory, createHostFactory } from '@ngneat/spectator/jest';
+import { Spectator, SpectatorDirective, SpectatorHost } from '@openng/spectator';
+import { createComponentFactory, createDirectiveFactory, createHostFactory } from '@openng/spectator/jest';
 
 import { AveragePipe } from '../../test/pipe/average.pipe';
 

@@ -1,5 +1,5 @@
 import { NavigationStart, Router, RouterLink, UrlSegment } from '@angular/router';
-import { createRoutingFactory, ActivatedRouteStub } from '@ngneat/spectator';
+import { createRoutingFactory, ActivatedRouteStub } from '@openng/spectator';
 import { Component, NgZone } from '@angular/core';
 import { Location } from '@angular/common';
 

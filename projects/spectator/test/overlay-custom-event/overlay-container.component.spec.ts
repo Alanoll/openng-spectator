@@ -1,9 +1,9 @@
 import { Overlay } from '@angular/cdk/overlay';
 import { ComponentPortal } from '@angular/cdk/portal';
 import { Component } from '@angular/core';
-import { Spectator, createComponentFactory, SpectatorHost } from '@ngneat/spectator';
+import { Spectator, createComponentFactory, SpectatorHost } from '@openng/spectator';
 
-import { byText } from '@ngneat/spectator';
+import { byText } from '@openng/spectator';
 import { OverlayContainerComponent } from './overlay-container.component';
 import { OverlayContainerModule } from './overlay-container.module';
 import { OverlayContentComponent } from './overlay-content.component';

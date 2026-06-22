@@ -1,4 +1,4 @@
-import { createHostFactory, SpectatorHost, SpyObject } from '@ngneat/spectator';
+import { createHostFactory, SpectatorHost, SpyObject } from '@openng/spectator';
 
 import { WidgetService } from '../widget.service';
 

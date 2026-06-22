@@ -1,4 +1,4 @@
-import { createComponentFactory, createHostFactory, Spectator, SpectatorHost } from '@ngneat/spectator';
+import { createComponentFactory, createHostFactory, Spectator, SpectatorHost } from '@openng/spectator';
 import { SignalInputComponent } from './signal-input.component';
 
 describe('SignalInputComponent', () => {

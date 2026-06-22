@@ -7,7 +7,7 @@ Create a component factory by using the `createComponentFactory()` function, pas
 The `createComponentFactory()` returns a function that will create a fresh component in each `it` block:
 
 ```ts
-import { Spectator, createComponentFactory } from '@ngneat/spectator';
+import { Spectator, createComponentFactory } from '@openng/spectator';
 import { ButtonComponent } from './button.component';
 
 describe('ButtonComponent', () => {

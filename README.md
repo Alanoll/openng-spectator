@@ -1,5 +1,5 @@
 <p align="center">
- <img width="100%" height="100%" src="https://raw.githubusercontent.com/ngneat/spectator/master/image.svg?sanitize=true">
+ <img width="100%" height="100%" src="https://raw.githubusercontent.com/openng/spectator/master/image.svg?sanitize=true">
 </p>
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-48-orange.svg?style=flat-square)](#contributors)
@@ -1504,7 +1504,7 @@ It's possible to define injections which will be available for each test without
 ```ts
 // test.ts
 import { defineGlobalsInjections } from '@ngneat/spectator';
-import { TranslocoModule } from '@ngneat/transloco';
+import { TranslocoModule } from '@jsverse/transloco';
 
 defineGlobalsInjections({
   imports: [TranslocoModule],

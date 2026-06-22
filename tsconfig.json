@@ -22,16 +22,16 @@
       "dom"
     ],
     "paths": {
-      "@ngneat/spectator": [
+      "@openng/spectator": [
         "projects/spectator/src/public_api.ts"
       ],
-      "@ngneat/spectator/jest": [
+      "@openng/spectator/jest": [
         "projects/spectator/jest/src/public_api.ts"
       ],
-      "@ngneat/spectator/vitest": [
+      "@openng/spectator/vitest": [
         "projects/spectator/vitest/src/public_api.ts"
       ],
-      "@ngneat/spectator/internals": [
+      "@openng/spectator/internals": [
         "projects/spectator/internals/src/public_api.ts"
       ],
       // workaround for: https://github.com/rollup/rollup/issues/5199

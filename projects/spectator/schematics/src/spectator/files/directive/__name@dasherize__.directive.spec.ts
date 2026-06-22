@@ -1,4 +1,4 @@
-import { createDirectiveFactory, SpectatorDirective } from '@ngneat/spectator<% if (secondaryEntryPoint) { %>/<%= secondaryEntryPoint%><% } %>';
+import { createDirectiveFactory, SpectatorDirective } from '@openng/spectator<% if (secondaryEntryPoint) { %>/<%= secondaryEntryPoint%><% } %>';
 
 import { <%= classify(name)%>Directive } from './<%= dasherize(name)%>.directive';
 

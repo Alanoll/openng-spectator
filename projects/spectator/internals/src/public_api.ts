@@ -1,4 +1,4 @@
-// This is a public API surface of @ngneat/spectator/internals. It's not intended to be used
+// This is a public API surface of @openng/spectator/internals. It's not intended to be used
 // by consumers. Please, don't import anything from this entry-point.
 
 // This is done to prevent tests, that are being run in a `fakeAsync` zone, from failing randomly.

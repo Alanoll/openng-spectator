@@ -5,7 +5,7 @@ import {
   SpectatorHost,
   SpectatorService,
   createServiceFactory,
-} from '@ngneat/spectator/jest';
+} from '@openng/spectator/jest';
 import { InjectionToken } from '@angular/core';
 
 import { ConsumerService } from '../../test/consumer.service';

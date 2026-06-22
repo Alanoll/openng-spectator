@@ -1,4 +1,4 @@
-import { createHostFactory, SpectatorHost } from '@ngneat/spectator/vitest';
+import { createHostFactory, SpectatorHost } from '@openng/spectator/vitest';
 
 import { ConsumeDynamicComponent } from '../../../test/consum-dynamic/consume-dynamic.component';
 import { DynamicComponent } from '../../../test/dynamic/dynamic.component';

@@ -1,4 +1,4 @@
-import { createComponentFactory, createHostFactory, Spectator, SpectatorHost } from '@ngneat/spectator/jest';
+import { createComponentFactory, createHostFactory, Spectator, SpectatorHost } from '@openng/spectator/jest';
 import { StandaloneComponent } from '../../../../test/standalone/component/standalone.component';
 
 describe('StandaloneComponent', () => {

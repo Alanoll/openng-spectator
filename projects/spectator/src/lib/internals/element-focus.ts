@@ -53,7 +53,7 @@ class FocusEventWatcher implements EventListenerObject {
  * patchElementFocus(triggerEl);
  */
 export function patchElementFocus(element: HTMLElement): void {
-  // https://github.com/ngneat/spectator/issues/373 - Don't patch when using JSDOM, eg in Jest
+  // https://github.com/openng/spectator/issues/373 - Don't patch when using JSDOM, eg in Jest
   if (!isRunningInJsDom() && element[IS_FOCUS_PATCHED_PROP] === undefined) {
     const originalFocus = element.focus.bind(element);
     element.focus = (options) => {
