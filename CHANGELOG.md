@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.0.0 (2026-07-08)
+
+Initial release of [`@openng/spectator`](https://www.npmjs.com/package/@openng/spectator), a community-maintained fork of [`@ngneat/spectator`](https://www.npmjs.com/package/@ngneat/spectator). Versioning restarts at `1.0.0`; for the full history of the upstream package, see the entries below.
+
+### Features
+
+* 🎸 Angular 22 support ([#3](https://github.com/openng-org/spectator/pull/3))
+* 🎸 Add an Angular compatibility matrix to the docs
+
+### Changes
+
+* 📦 Rename the package from `@ngneat/spectator` to `@openng/spectator`
+* 📚 Migrate the documentation site to the [Astro Starlight](https://starlight.astro.build) framework
+* ✏️ Update the README and VS Code snippets to reference OpenNG ([#4](https://github.com/openng-org/spectator/pull/4), [#5](https://github.com/openng-org/spectator/pull/5))
+* 🤖 Remove obsolete upstream governance and community-health files
+
 ---
 
 > **Note:** This fork ([`@openng/spectator`](https://www.npmjs.com/package/@openng/spectator)) restarts versioning at `1.0.0`. All entries below this line predate the fork and document the history of the original [`@ngneat/spectator`](https://www.npmjs.com/package/@ngneat/spectator) package, from which this project was forked. Their version numbers and links refer to that original package (whose GitHub repository has since been removed).
