@@ -3,7 +3,12 @@
   "compilerOptions": {
     "rootDir": "..",
     "types": [
+      "jasmine",
       "node"
     ]
-  }
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ]
 }
