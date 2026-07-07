@@ -1,8 +1,13 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'app-async-input',
-  template: ` <div *ngIf="show">Hello</div> `,
+  template: `
+    @if (show) {
+      <div>Hello</div>
+    }
+  `,
+  changeDetection: ChangeDetectionStrategy.Eager,
   standalone: false,
 })
 export class AsyncInputComponent {

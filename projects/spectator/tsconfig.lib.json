@@ -13,10 +13,6 @@
       "jasmine",
       "jest",
       "node"
-    ],
-    "lib": [
-      "dom",
-      "es2018"
     ]
   },
   "angularCompilerOptions": {
@@ -24,7 +20,8 @@
     "strictMetadataEmit": true,
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true,
-    "enableResourceInlining": true
+    "enableResourceInlining": true,
+    "strictTemplates": false
   },
   "exclude": [
     "test/**/*.ts"

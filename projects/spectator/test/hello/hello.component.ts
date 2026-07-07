@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, ChangeDetectionStrategy } from '@angular/core';
 
 import { TranslateService } from '../translate.service';
 
@@ -12,9 +12,12 @@ import { TranslateService } from '../translate.service';
       </h2>
     </div>
 
-    <div *ngIf="!widthRaw" style="color:red">widthRaw is not set</div>
+    @if (!widthRaw) {
+      <div style="color:red">widthRaw is not set</div>
+    }
     <div>Width is: {{ width }}</div>
   `,
+  changeDetection: ChangeDetectionStrategy.Eager,
   standalone: false,
 })
 export class HelloComponent implements OnChanges {
