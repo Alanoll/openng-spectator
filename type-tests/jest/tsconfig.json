@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "DOM"],
+    "skipLibCheck": true,
+    "types": ["jest"],
+    "paths": {
+      "@openng/spectator": ["../../dist/spectator/types/openng-spectator.d.ts"],
+      "@openng/spectator/jest": ["../../dist/spectator/types/openng-spectator-jest.d.ts"]
+    }
+  },
+  "files": ["consumer.ts"]
+}
