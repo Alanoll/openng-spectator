@@ -1,59 +1,63 @@
-declare namespace jasmine {
-  interface Matchers<T> {
-    toExist(): boolean;
+declare global {
+  namespace jasmine {
+    interface Matchers<T> {
+      toExist(): boolean;
 
-    toHaveLength(expected: number): boolean;
+      toHaveLength(expected: number): boolean;
 
-    toHaveId(id: string | number): boolean;
+      toHaveId(id: string | number): boolean;
 
-    toHaveClass(className: string | string[], options?: { strict: boolean }): boolean;
+      toHaveClass(className: string | string[], options?: { strict: boolean }): boolean;
 
-    toHaveAttribute(attr: string | object, val?: string): boolean;
+      toHaveAttribute(attr: string | object, val?: string): boolean;
 
-    toHaveProperty(prop: string | object, val?: string | boolean): boolean;
+      toHaveProperty(prop: string | object, val?: string | boolean): boolean;
 
-    toContainProperty(prop: string | object, val?: string): boolean;
+      toContainProperty(prop: string | object, val?: string): boolean;
 
-    toHaveText(text: string | string[] | ((text: string) => boolean), exact?: boolean): boolean;
+      toHaveText(text: string | string[] | ((text: string) => boolean), exact?: boolean): boolean;
 
-    toContainText(text: string | string[] | ((text: string) => boolean), exact?: boolean): boolean;
+      toContainText(text: string | string[] | ((text: string) => boolean), exact?: boolean): boolean;
 
-    toHaveExactText(text: string | string[] | ((text: string) => boolean), options?: { trim: boolean }): boolean;
+      toHaveExactText(text: string | string[] | ((text: string) => boolean), options?: { trim: boolean }): boolean;
 
-    toHaveExactTrimmedText(text: string | string[] | ((text: string) => boolean)): boolean;
+      toHaveExactTrimmedText(text: string | string[] | ((text: string) => boolean)): boolean;
 
-    toHaveValue(value: string | string[]): boolean;
+      toHaveValue(value: string | string[]): boolean;
 
-    toContainValue(value: string | string[]): boolean;
+      toContainValue(value: string | string[]): boolean;
 
-    toHaveStyle(style: { [styleKey: string]: any }): boolean;
+      toHaveStyle(style: { [styleKey: string]: any }): boolean;
 
-    toHaveData({ data, val }: { data: string; val: string }): boolean;
+      toHaveData({ data, val }: { data: string; val: string }): boolean;
 
-    toBeChecked(): boolean;
+      toBeChecked(): boolean;
 
-    toBeIndeterminate(): boolean;
+      toBeIndeterminate(): boolean;
 
-    toBeDisabled(): boolean;
+      toBeDisabled(): boolean;
 
-    toBeEmpty(): boolean;
+      toBeEmpty(): boolean;
 
-    toBePartial(partial: object): boolean;
+      toBePartial(partial: object): boolean;
 
-    toBeHidden(): boolean;
+      toBeHidden(): boolean;
 
-    toBeSelected(): boolean;
+      toBeSelected(): boolean;
 
-    toBeVisible(): boolean;
+      toBeVisible(): boolean;
 
-    toBeFocused(): boolean;
+      toBeFocused(): boolean;
 
-    toBeMatchedBy(selector: string | Element): boolean;
+      toBeMatchedBy(selector: string | Element): boolean;
 
-    toHaveDescendant(selector: string | Element): boolean;
+      toHaveDescendant(selector: string | Element): boolean;
 
-    toHaveDescendantWithText({ selector, text }: { selector: string; text: string }): boolean;
+      toHaveDescendantWithText({ selector, text }: { selector: string; text: string }): boolean;
 
-    toHaveSelectedOptions(expected: string | string[] | HTMLOptionElement | HTMLOptionElement[]): boolean;
+      toHaveSelectedOptions(expected: string | string[] | HTMLOptionElement | HTMLOptionElement[]): boolean;
+    }
   }
 }
+
+export {};
