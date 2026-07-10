@@ -18,6 +18,7 @@
     "test": "ng test",
     "test:jest": "ng run spectator:test-jest",
     "test:vitest": "ng run spectator:test-vitest",
+    "test:types": "tsc -p type-tests/jasmine && tsc -p type-tests/jest && tsc -p type-tests/vitest",
     "test:ci": "cross-env NODE_ENV=build yarn test && yarn test:jest --silent && yarn test:vitest",
     "lint": "ng lint",
     "format": "prettier --write \"{projects,src}/**/*.ts\"",

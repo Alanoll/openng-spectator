@@ -42,6 +42,27 @@ jobs:
         with:
           name: dist
           path: dist
+  test-types:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Restore node modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('yarn.lock') }}
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+
+      - name: Type-check published types
+        run: yarn test:types
   test:
     runs-on: ubuntu-latest
     needs: [yarn-install]
