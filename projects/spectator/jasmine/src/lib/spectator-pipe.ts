@@ -1,13 +1,13 @@
 import { Type } from '@angular/core';
 import {
-  createPipeFactory as baseCreatePipeFactory,
-  isType,
-  HostComponent,
-  SpectatorPipe as BaseSpectatorPipe,
-  SpectatorPipeOptions,
-  SpectatorPipeOverrides,
-  Token,
-} from '@openng/spectator/core';
+    createPipeFactory as baseCreatePipeFactory,
+    SpectatorPipe as BaseSpectatorPipe,
+    HostComponent,
+    isType,
+    SpectatorPipeOptions,
+    SpectatorPipeOverrides,
+    Token,
+} from '@openng/spectator';
 
 import { mockProvider, SpyObject } from './mock';
 

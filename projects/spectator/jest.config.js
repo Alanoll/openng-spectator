@@ -14,7 +14,6 @@ module.exports = {
   testMatch: ['**/jest/**/*.spec.ts'],
   setupFilesAfterEnv: ['<rootDir>/projects/spectator/setup-jest.ts'],
   moduleNameMapper: {
-    '@openng/spectator/core': '<rootDir>/projects/spectator/core/src/public_api.ts',
     '@openng/spectator/jasmine': '<rootDir>/projects/spectator/jasmine/src/public_api.ts',
     '@openng/spectator/internals': '<rootDir>/projects/spectator/internals/src/public_api.ts',
     '@openng/spectator/jest': '<rootDir>/projects/spectator/jest/src/public_api.ts',

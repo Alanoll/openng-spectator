@@ -1,4 +1,4 @@
-import { SpectatorMatchers } from '@openng/spectator/core';
+import { SpectatorMatchers } from '@openng/spectator';
 
 declare global {
   namespace jest {
@@ -6,4 +6,5 @@ declare global {
   }
 }
 
-export {};
+export { };
+

@@ -1,11 +1,11 @@
-import { NavigationStart, Router, RouterLink, UrlSegment } from '@angular/router';
-import { createRoutingFactory } from '@openng/spectator/jasmine';
-import { ActivatedRouteStub } from '@openng/spectator/core';
-import { Component, NgZone } from '@angular/core';
 import { Location } from '@angular/common';
+import { Component, NgZone } from '@angular/core';
+import { NavigationStart, Router, UrlSegment } from '@angular/router';
+import { ActivatedRouteStub } from '@openng/spectator';
+import { createRoutingFactory } from '@openng/spectator/jasmine';
 
-import { MyPageComponent } from '../../../test/with-routing/my-page.component';
 import { TestBed } from '@angular/core/testing';
+import { MyPageComponent } from '../../../test/with-routing/my-page.component';
 
 describe('MyPageComponent', () => {
   describe('simple use', () => {

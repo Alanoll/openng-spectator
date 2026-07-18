@@ -1,5 +1,5 @@
-import { FactoryProvider, AbstractType, Type } from '@angular/core';
-import { installProtoMethods, CompatibleSpy, SpyObject as BaseSpyObject } from '@openng/spectator/core';
+import { AbstractType, FactoryProvider, Type } from '@angular/core';
+import { SpyObject as BaseSpyObject, CompatibleSpy, installProtoMethods } from '@openng/spectator';
 
 export type SpyObject<T> = BaseSpyObject<T> & {
   [P in keyof T]: T[P] &

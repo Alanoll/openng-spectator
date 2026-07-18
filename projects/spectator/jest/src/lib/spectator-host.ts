@@ -1,13 +1,13 @@
 import { Type } from '@angular/core';
 import {
-  createHostFactory as baseCreateHostFactory,
-  SpectatorHost as BaseSpectatorHost,
-  HostComponent,
-  isType,
-  SpectatorHostOptions,
-  SpectatorHostOverrides,
-  Token,
-} from '@openng/spectator/core';
+    createHostFactory as baseCreateHostFactory,
+    SpectatorHost as BaseSpectatorHost,
+    HostComponent,
+    isType,
+    SpectatorHostOptions,
+    SpectatorHostOverrides,
+    Token,
+} from '@openng/spectator';
 
 import { mockProvider, SpyObject } from './mock';
 

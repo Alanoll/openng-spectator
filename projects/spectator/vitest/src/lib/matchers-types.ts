@@ -1,4 +1,4 @@
-import { SpectatorMatchers } from '@openng/spectator/core';
+import { SpectatorMatchers } from '@openng/spectator';
 
 export * from 'vitest';
 

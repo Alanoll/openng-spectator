@@ -1,12 +1,12 @@
 import { Type } from '@angular/core';
 import {
-  createComponentFactory as baseCreateComponentFactory,
-  isType,
-  Spectator as BaseSpectator,
-  SpectatorOptions,
-  SpectatorOverrides,
-  Token,
-} from '@openng/spectator/core';
+    createComponentFactory as baseCreateComponentFactory,
+    Spectator as BaseSpectator,
+    isType,
+    SpectatorOptions,
+    SpectatorOverrides,
+    Token,
+} from '@openng/spectator';
 
 import { mockProvider, SpyObject } from './mock';
 

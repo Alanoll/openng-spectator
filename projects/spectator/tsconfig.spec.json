@@ -16,9 +16,6 @@
       "@openng/spectator/vitest": [
         "./vitest/src/public_api.ts"
       ],
-      "@openng/spectator/core": [
-        "./core/src/public_api.ts"
-      ],
       "@openng/spectator/jasmine": [
         "./jasmine/src/public_api.ts"
       ],

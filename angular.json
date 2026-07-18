@@ -24,16 +24,16 @@
         "test": {
           "builder": "@angular/build:karma",
           "options": {
-            "tsConfig": "projects/spectator/core/tsconfig.spec.json",
-            "karmaConfig": "projects/spectator/core/karma.conf.js",
+            "tsConfig": "projects/spectator/src/tsconfig.spec.json",
+            "karmaConfig": "projects/spectator/src/karma.conf.js",
             "polyfills": [
               "core-js/es/reflect",
               "zone.js",
               "zone.js/testing"
             ],
             "include": [
-              "../core/test/test.ts",
-              "../core/test/**/*.spec.ts"
+              "../src/test/test.ts",
+              "../src/test/**/*.spec.ts"
             ],
             "watch": false
           }

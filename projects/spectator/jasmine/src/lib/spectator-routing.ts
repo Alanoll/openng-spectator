@@ -1,12 +1,12 @@
 import { Type } from '@angular/core';
 import {
-  createRoutingFactory as baseCreateRoutingFactory,
-  isType,
-  SpectatorRouting as BaseSpectatorRouting,
-  SpectatorRoutingOptions,
-  SpectatorRoutingOverrides,
-  Token,
-} from '@openng/spectator/core';
+    createRoutingFactory as baseCreateRoutingFactory,
+    SpectatorRouting as BaseSpectatorRouting,
+    isType,
+    SpectatorRoutingOptions,
+    SpectatorRoutingOverrides,
+    Token,
+} from '@openng/spectator';
 
 import { mockProvider, SpyObject } from './mock';
 
